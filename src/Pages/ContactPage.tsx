@@ -68,7 +68,7 @@ const ContactPage: React.FC = () => {
             <Grid item xs={12} sm={6} md={6} lg={6}>
                 <div className={classes.map}>
                     <GoogleMapReact
-                        bootstrapURLKeys={{ key: 'AIzaSyC23besMSpM7HG9Ga4pTOIRzJLWiZOrMJQ' }}
+                        bootstrapURLKeys={{ key: 'YOUR-KEY-API' }}
                         defaultCenter={defaultProps.center}
                         defaultZoom={defaultProps.zoom} >
                     <AnyReactComponent
